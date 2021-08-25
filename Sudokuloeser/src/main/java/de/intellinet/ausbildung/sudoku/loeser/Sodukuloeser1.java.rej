@@ -1,0 +1,10 @@
+diff a/Java/Sudoku/Sudokuloeser/src/main/java/de/intellinet/ausbildung/sudoku/loeser/Sodukuloeser1.java b/Java/Sudoku/Sudokuloeser/src/main/java/de/intellinet/ausbildung/sudoku/loeser/Sodukuloeser1.java	(rejected hunks)
+@@ -46,7 +46,7 @@
+ 	public int[][] rekursion(int[][] matrix, int x, int y) {
+ 		logger.debug("insert rekursion ...");
+ 
+-		System.out.println(printErgebnis(matrix, y, x));
++		System.out.println(getErgebnis(matrix, y, x));
+ 
+ 		if (!istPositionLeer(matrix, x, y)) {
+ 
